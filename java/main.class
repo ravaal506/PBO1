@@ -1,0 +1,47 @@
+public class Mobil {
+
+```
+// Properties / Field / Atribut
+String merk;
+String mesin;
+String aksi;
+String rem;
+
+// Constructor
+public Mobil(String merk) {
+    this.merk = merk;
+}
+
+// Method jalan
+public void jalan() {
+
+    // Invariant: mesin dan aksi tidak boleh null
+    if (mesin == null || aksi == null) {
+        throw new IllegalArgumentException(
+            "Mesin dan aksi tidak boleh null saat method jalan() dipanggil."
+        );
+    }
+
+    System.out.println("\n------>> Mobil Sedang Berjalan <<------");
+    System.out.println("Merk  : " + merk);
+    System.out.println("Mesin : " + mesin);
+    System.out.println("Aksi  : " + aksi);
+}
+
+// Method pengereman
+public void pengereman() {
+
+    // Invariant: rem tidak boleh null
+    if (rem == null) {
+        throw new IllegalArgumentException(
+            "Rem tidak boleh null saat method pengereman() dipanggil."
+        );
+    }
+
+    System.out.println("\n------>> Mobil Melakukan Pengereman <<------");
+    System.out.println("Merk : " + merk);
+    System.out.println("Rem  : " + rem);
+}
+```
+
+}
