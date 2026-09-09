@@ -142,22 +142,11 @@ AI tidak digunakan untuk membuat kode Java maupun PHP. Kode program dibuat berda
 
 ```text
 Bertindak sebagai seorang Analyst dan Writer.
-
 Saya ingin membuat README.md untuk tugas Pemrograman
 Berorientasi Objek mengenai implementasi class Mobil
-menggunakan Java dan PHP.
-
-Susun README.md secara rapi, sistematis, dan mudah dipahami.
+menggunakan Java dan PHP.Susun README.md secara rapi, sistematis, dan mudah dipahami.
 Jelaskan deskripsi class, atribut, method, invarian,
 struktur folder, cara menjalankan program, serta deklarasi
-penggunaan AI.
-
-Dokumentasi harus disesuaikan dengan kode dan ketentuan tugas
+penggunaan AI.Dokumentasi harus disesuaikan dengan kode dan ketentuan tugas
 yang telah saya buat. Jangan membuat atau mengubah kode Java
-maupun PHP. Fokus hanya pada penyusunan dokumentasi README.md.
-```
----
-10. Kesimpulan
-Class `Mobil` merupakan representasi sebuah kendaraan yang memiliki informasi mengenai merk, mesin, pergerakan, dan sistem pengereman.
-Penerapan validasi pada method `jalan()` dan `pengereman()` memastikan bahwa data yang diperlukan telah tersedia sebelum method dijalankan. Jika kondisi tersebut tidak terpenuhi, program akan memberikan exception sesuai dengan bahasa pemrograman yang digunakan.
-Kalau nama file kode kamu memang **`Mobil.java` dan `Mobil.php`**, versi di atas sudah disesuaikan.
+maupun PHP. Fokus hanya pada penyusunan dokumentasi README.md
